@@ -1,0 +1,136 @@
+h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(63, 55, 51);
+}
+
+h1{
+    font-family: serif;
+    color: rgb(197, 88, 33);
+}
+
+h3,h4{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#Profile{
+    width: 175px;
+    height: 175px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+body{
+    background-image: url("../Images/img4.avif");
+    background-repeat: repeat-y;
+    background-size: 1550px 1080px;
+}
+
+#heading{
+    margin-left: 650px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #383737;
+}
+  
+li a {
+    display: block;
+    color: #c6c6c6;
+    padding: 15px 15px;
+    text-decoration: none;
+    text-align: center;
+}
+ 
+li a:hover {
+    background-color: #a29a9a;
+    color: rgb(255, 255, 255);
+}
+
+#menu{
+    background-color:#383737;
+    height:1200px;
+    width:200px;
+    float:left;
+    padding:5px;
+    border-radius: 20px;
+} 
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(15px);
+    background: rgba(255,255,255,0.2);
+    width: 1200px;
+    height: 400px;
+    margin-left: 250px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border:2px solid black;
+}
+
+hr{
+    border: 1px solid grey;
+}
+
+/* .innerh3{
+    background-color: #4cbb17;
+    margin-top: 10px;
+    margin-left: 10px;
+} */
+
+.container div{
+    margin-right: 50px;
+    margin: 8px;
+    backdrop-filter: blur(15px);
+    background: rgba(255,255,255,0.2);
+    width: 200px;
+    height: 180px;
+    border-radius: 20px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+#center{
+    text-align: center;
+}
+
+#left{
+    text-align: left;
+    margin-left: 300px;
+}
+
+#font1{
+    margin-left: 300px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(63, 55, 51);
+}
+
+#submitBtn:hover{
+    background-color: #4cbb17;
+    color: white;
+    text-decoration: bold;
+}
+
+#btnSpace{
+    margin-left: 360px;
+}
+
+#icon{
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
+

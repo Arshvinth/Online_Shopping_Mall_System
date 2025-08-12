@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+}
+
+.header-top {
+    overflow: hidden;
+    height: 50px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    background-color: rgb(255, 213, 145);
+}
+
+.logo {
+    display: inline-block;
+    width: 120px;
+    height: auto;
+}
+
+.search {
+    display: inline-flex;
+    float: none;
+    width: 40%;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+}
+
+.search input {
+    height: auto;
+    width: 100%;
+    border: none;
+    padding-left: 30px;
+    background-color: transparent;
+}
+
+.search-button {
+    width: 20%;
+    height: auto;
+    float: right;
+    margin-right: 0;
+    padding-top: 5px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.search .search-button:hover {
+    background-color: rgba(145, 145, 145, 0.211);
+}
+
+.cart {
+    height: 30px;
+    width: auto;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.login-button {
+    display: flex;
+    height: 50px;
+    width: auto;
+    background-color: transparent;
+    border: none;
+    margin-right: 50px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.login-button:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.login-button div {
+    line-height: 0;
+    float: left;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.login-button img {
+    margin-right: 0;
+    margin-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.search,
+.login-button,
+.cart,
+.logo {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header-bottom {
+    background-color: black;
+    height: 50px;
+}
+
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navigation li {
+    float: left;
+}
+
+.navigation li a {
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    color: white;
+}
+
+.navigation a.active {
+    background-color: rgb(192, 0, 0);
+}
+
+.navigation a:hover {
+    background-color: rgb(232, 232, 232);
+    color: black;
+}

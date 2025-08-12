@@ -1,0 +1,43 @@
+#Profile{
+    width: 175px;
+    height: 175px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #383737;
+}
+  
+li a {
+    display: block;
+    color: #c6c6c6;
+    padding: 15px 15px;
+    text-decoration: none;
+    text-align: center;
+}
+ 
+li a:hover {
+    background-color: #a29a9a;
+    color: rgb(255, 255, 255);
+}
+
+#menu{
+    background-color:#383737;
+    height:1200px;
+    width:200px;
+    float:left;
+    padding:5px;
+    border-radius: 20px;
+} 
+
+
+hr{
+    border: 1px solid grey;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="left">
+                <h3>BILLING ADDRESS</h3>
+
+                <form action="#">
+                    <label for="full-name">Full Name</label>
+                    <input type="text" name="#" placeholder="Enter name">
+
+                    <label for="email">Email</label>
+                    <input type="email" name="#" placeholder="Enter email">
+
+                    <label for="address">Address</label>
+                    <input type="text" name="#" placeholder="Enter address">
+
+                    <label for="city">City</label>
+                    <input type="text" name="#" placeholder="Enter city">
+
+                    <div id="zip">
+                        <label for="state">State
+                            <select name="#">
+                                <option>Choose State..</option>
+                                <option value="np">Northern</option>
+                                <option value="nwp">North Western</option>
+                                <option value="wp">Western</option>
+                                <option value="ncp">North Central</option>
+                                <option value="cp">Central</option>
+                                <option value="sbp">Sabaragamuwa</option>
+                                <option value="ep">Eastern</option>
+                                <option value="up">Uva</option>
+                                <option value="sp">Southern</option>
+                            </select>
+                        </label>
+
+                        <label for="zip-code">Zip Code
+                            <input type="number" name="#" placeholder="Zip code">
+                        </label>
+                    </div>
+                </form>
+            </div>
+
+            <div class="right">
+                <h3>Payment</h3>
+
+                <form action="#">
+                    <label for="card-img">Acceped Cards</label><br>
+                    <img src="card1.svg">
+                    <img src="card2.svg">
+                    <br><br>
+
+                    <label for="card-number">Credit card number</label>
+                    <input type="text" name="#" placeholder="Enter card number">
+
+                    <label for="card-exp">Exp month</label>
+                    <input type="text" name="#" placeholder="Enter month">
+
+                    <div id="zip">
+                        <label for="state">Exp year
+                            <select name="#">
+                                <option>Choose year..</option>
+                                <option value="y24">2024</option>
+                                <option value="y25">2025</option>
+                                <option value="y26">2026</option>
+                                <option value="y27">2027</option>
+                            </select>
+                        </label>
+
+                        <label for="zip-code">CVV
+                            <input type="number" name="#" placeholder="CVV">
+                        </label>
+                    </div>
+                </form>
+                <input type="submit" name="#" value="Proceed to Checkout">
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
