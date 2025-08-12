@@ -1,2 +1,2 @@
 # Online_Shopping_Mall_System
-Developed using HTML,CSS,JS with MS SQL database
+Developed using HTML,CSS,JS with PHP for backend connectivity with MS SQL database
